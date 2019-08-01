@@ -1,0 +1,63 @@
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    text-emphasis: none;
+    color: aliceblue;
+}
+
+.header {
+    width: 100%;
+    background-image: url(./img/main/home2.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.module {
+    padding: 0px 15px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    background: transparent;
+    height: 55px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.web-icon {
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.language {
+    float: left;
+}
+
+.language span {
+    color: aliceblue;
+}
+
+.search {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.fas {
+    color: aliceblue;
+    padding: 0px 5px;
+}
+
+.nav-item {
+    display: flex;
+}
