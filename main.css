@@ -1,3 +1,8 @@
+body {
+    color: aliceblue;
+    height: 100vh;
+}
+
 a {
     color: aliceblue;
 }
@@ -11,7 +16,8 @@ a:hover {
     width: 100%;
     background-image: url(./img/main/home2.jpg);
     background-size: cover;
-    height: 500px;
+    height: 100%;
+    padding: 0px;
 }
 
 .module {
@@ -25,6 +31,8 @@ a:hover {
 .header-top {
     background: transparent;
     height: 55px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .left {
@@ -42,6 +50,7 @@ a:hover {
 }
 .language {
     float: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .language span {
@@ -51,6 +60,7 @@ a:hover {
 .search {
     color: aliceblue;
     font-weight: 300;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .fas {
@@ -60,4 +70,51 @@ a:hover {
 
 .nav-item {
     display: flex;
+}
+
+.header-bottom {
+    margin-top: 10%;
+}
+
+.header-content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 25px; 
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 100;
+}
+.header-content p {
+    margin-bottom: 25px; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.try-builder {
+    padding: 10px 46px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.purchase-foundry {
+    margin-left: 5px;
+    display: inline;
+    padding: 12px 37px;
+    font-size: 16px;
+}
+
+.purchase-foundry:hover {
+    background-color: aliceblue;
+    color: black;
+    border-color: aliceblue;
 }
