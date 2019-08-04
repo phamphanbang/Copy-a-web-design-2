@@ -12,6 +12,15 @@ a:hover {
     color: aliceblue;
 }
 
+ul {
+    list-style: none;
+    padding: 0px 0px;
+}
+
+ul li {
+    white-space: nowrap;
+}
+
 .header {
     width: 100%;
     background-image: url(./img/main/home2.jpg);
@@ -70,7 +79,55 @@ a:hover {
 }
 
 .nav-item {
+    position: relative;
+}
+
+.nav-link {
+    padding: 1rem 1rem;
+}
+
+.dropdown-list {
+    position: absolute;
+    background-color: #292929;
+    display: none;
+    z-index: 1;
+}
+
+.nav-item:hover .dropdown-list {
+    display: block;
+}
+
+.two-col-list {
     display: flex;
+}
+
+.two-col-list > li {
+    display: inline-block;
+}
+
+.dropdown-item {
+    padding: 8px 15px;
+    display: list-item;
+    font-weight: 400;
+    width: 190px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.dropdown-item span {
+    color: aliceblue ;
+}
+ 
+.dropdown-item:hover{
+    background-color: #292929;
+}
+
+.dropdown-item a {
+    color: #a5a0a0b0;
+}
+
+.dropdown-item:hover a {
+    color: aliceblue;
 }
 
 .header-bottom {
@@ -105,6 +162,7 @@ a:hover {
     padding: 10px 46px;
     font-size: 16px;
     width: 200px;
+    font-weight: 700;
 }
 
 .purchase-foundry {
@@ -112,6 +170,9 @@ a:hover {
     display: inline;
     padding: 12px 37px;
     font-size: 16px;
+    background-color: #47b475;
+    border-color: #47b475;
+    font-weight: 700;
 }
 
 .purchase-foundry:hover {
@@ -221,7 +282,7 @@ img {
 
 .feature {
     color: black;
-    padding: 15vh 0vh;
+    padding: 15vh 70px;
 }
 
 
